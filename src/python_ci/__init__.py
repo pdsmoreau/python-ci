@@ -3,4 +3,4 @@ def main() -> None:
 
 
 def generate_list() -> int:
-    return 42
+    return 43
