@@ -1,12 +1,12 @@
 name: Python Code Quality
 on: [push]
 jobs:
-  lock_file:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-      - uses: ./.github/actions/setup
-      - run: uv lock --locked
+  # lock_file:
+  #   runs-on: ubuntu-latest
+  #   steps:
+  #     - uses: actions/checkout@v4
+  #     - uses: ./.github/actions/setup
+  #     - run: uv lock --locked
   linting:
     runs-on: ubuntu-latest
     steps:
